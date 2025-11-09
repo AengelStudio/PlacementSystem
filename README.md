@@ -11,6 +11,17 @@ A high-performance object placement system for Unity using Unity Jobs and Burst 
 - **Dynamic Obstacles**: Add and remove obstacles at runtime with automatic inflation updates
 - **Configurable**: Adjustable inflation radius and frame budget for performance tuning
 
+## Algorithms
+
+This package implements several well-known algorithms for efficient spatial queries:
+
+- **[Distance Transform](https://en.wikipedia.org/wiki/Distance_transform)**: Creates a distance field from obstacles, allowing O(1) placement validation queries
+- **[Breadth-First Search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search)**: Used for propagating the distance field from obstacles outward using a frontier-based approach
+- **[Euclidean Distance Transform](https://en.wikipedia.org/wiki/Distance_transform#Euclidean_distance_transform)**: Calculates accurate Euclidean distances in the grid, supporting both 4-connected and 8-connected neighbor traversal
+- **[Grid-Based Spatial Partitioning](https://en.wikipedia.org/wiki/Space_partitioning)**: Uses a uniform grid data structure for efficient spatial queries and obstacle management
+
+The system combines these algorithms with Unity's Job System and Burst compilation to achieve high-performance spatial queries suitable for real-time games.
+
 ## Requirements
 
 - Unity 2022.3 or later

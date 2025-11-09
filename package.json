@@ -15,6 +15,13 @@
     "spatial",
     "obstacle",
     "pathfinding",
+    "distance-transform",
+    "distance-field",
+    "breadth-first-search",
+    "bfs",
+    "euclidean-distance",
+    "spatial-partitioning",
+    "grid-based",
     "jobs",
     "burst",
     "performance"
