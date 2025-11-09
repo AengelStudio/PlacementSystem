@@ -1,0 +1,39 @@
+{
+  "name": "com.aengelstudio.placement-system",
+  "version": "1.0.0",
+  "displayName": "Placement System",
+  "description": "A high-performance object placement system using Unity Jobs and Burst for efficient spatial queries and obstacle avoidance.",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "dependencies": {
+    "com.unity.collections": "1.2.4",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.burst": "1.8.4"
+  },
+  "keywords": [
+    "placement",
+    "spatial",
+    "obstacle",
+    "pathfinding",
+    "jobs",
+    "burst",
+    "performance"
+  ],
+  "author": {
+    "name": "AengelStudio",
+    "email": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diamoundz/PlacementSystem.git"
+  },
+  "samples": [
+    {
+      "displayName": "Example Scene",
+      "description": "Example scene demonstrating the placement system",
+      "path": "Samples~/Example"
+    }
+  ]
+}
+
