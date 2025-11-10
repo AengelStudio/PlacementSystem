@@ -41,12 +41,15 @@ The system combines these algorithms with Unity's Job System and Burst compilati
 
 ### Importing the Example Scene
 
-After installing the package, you can import the example scene:
+**Important:** After installing the package, you must import the samples to use the example scene:
 
-1. In Package Manager, select the **Placement System** package
-2. Look for the **Samples** section in the package details (right panel)
-3. Click **Import** next to "Example Scene"
-4. The example scene and assets will be copied to `Assets/Samples/Placement System/1.0.0/Example/`
+1. Open **Package Manager** (Window > Package Manager)
+2. Select the **Placement System** package from the list
+3. In the package details panel (right side), find the **Samples** section
+4. Click the **Import** button next to "Example Scene"
+5. The example scene, prefab, and assets will be copied to `Assets/Samples/Placement System/1.0.0/Example/`
+
+**Note:** The example scene requires the samples to be imported. If you see missing prefab errors, make sure you've imported the samples via Package Manager.
 
 ## Quick Start
 
